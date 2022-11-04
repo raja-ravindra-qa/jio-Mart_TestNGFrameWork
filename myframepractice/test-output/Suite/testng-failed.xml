@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="tests.test1">
+        <methods>
+          <include name="method_Name_print" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3"/>
+          <include name="tearDown"/>
+          <include name="launching"/>
+          <include name="hi"/>
+        </methods>
+      </class> <!-- tests.test1 -->
+      <class name="tests.sanity">
+        <methods>
+          <include name="mainPageMenu3"/>
+          <include name="mainPageMenu5"/>
+          <include name="mainPageMenu4"/>
+          <include name="mainPageMenu6"/>
+          <include name="mainPageMenu1"/>
+          <include name="launching"/>
+          <include name="signin"/>
+          <include name="cart"/>
+          <include name="tearDown"/>
+          <include name="mainPageMenu2"/>
+          <include name="mainPageMenu7"/>
+          <include name="mainPageMenu"/>
+          <include name="mainPageMenu8"/>
+        </methods>
+      </class> <!-- tests.sanity -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
