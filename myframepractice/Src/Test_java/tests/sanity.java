@@ -10,7 +10,7 @@ public class sanity extends baseclass {
 	
 	@Test
 	public void urlcheck() {
-		System.out.println("i am checking branch");
+		System.out.println("i am checking branch trail2");
 		lp.launch();
 	}
 	
